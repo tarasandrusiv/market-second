@@ -47,7 +47,7 @@ header nav li a:hover{
 }
 header div.banner{
     height: 500px;
-    background-image: url(../img/fila.jpg);
+    background-image: url(../img/adidas.jpg);
     background-position: center;
     background-size: cover;
     display: flex;
@@ -96,6 +96,100 @@ header div.banner div {
         grid-template-columns: repeat(4, 1fr);
     }
 }
+.product-card button {
+   border-top: 1px solid #96d1f8;
+   background: #3a434a;
+   background: -webkit-gradient(linear, left top, left bottom, from(#ebebeb), to(#3a434a));
+   background: -webkit-linear-gradient(top, #ebebeb, #3a434a);
+   background: -moz-linear-gradient(top, #ebebeb, #3a434a);
+   background: -ms-linear-gradient(top, #ebebeb, #3a434a);
+   background: -o-linear-gradient(top, #ebebeb, #3a434a);
+   padding: 4.5px 9px;
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: #010103;
+   font-size: 11px;
+   font-family: Georgia, serif;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+.product-card button:hover {
+   border-top-color: #28597a;
+   background: #28597a;
+   color: #b88f3d;
+   }
+.product-card button:active {
+   border-top-color: #1b435e;
+   background: #1b435e;
+   }
+@keyframes slider {
+
+0% {
+	left: 0;
+}
+
+20% {
+	left: 0;
+}
+
+25% {
+	left: -100%;
+}
+
+45% {
+    left: -100%;
+
+}
+
+50% {
+		left: -200%;
+
+}
+
+70% {
+	left: -200%;
+}
+
+75% {
+	left: -300%;
+}
+
+95% {
+	left: -300%;
+}
+
+100% {
+	left: -400%;
+
+}
+
+}
+
+#slider {
+	overflow: hidden;
+}
+
+#slider figure img {
+	width: 20%;
+	float: left;
+}
+
+#slider figure {
+	position: relative;
+	width: 500%;
+	margin: 0;
+	left: 0;
+	text-align: left;
+	font-size: 0;
+	animation: 20s slider infinite; 
+
+}
+
 
 
 
