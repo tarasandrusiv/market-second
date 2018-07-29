@@ -8,6 +8,24 @@ body {
     margin: auto;
     padding: 0 5px;
 }
+@media (min-width: 450px) {
+    .banner-conteiner{
+    display: flex;
+     width: 800px;
+    height: 200px;
+    justify-content: space-between;
+}
+}
+.banner-1{
+    flex:1;
+}
+.banner-2{
+    flex:1;
+}
+.banner-3{
+    flex:1;
+}
+
 
 header nav p{
     font-family: 'Monoton', cursive;
@@ -44,22 +62,9 @@ header nav li a:hover{
     header ul li:last-child{
         margin-left: auto;
     }
-}
-header div.banner{
-    height: 500px;
-    background-image: url(../img/adidas.jpg);
-    background-position: center;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content:center;
-}
-header div.banner div {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-}
+
+
+
 .product-card{
     padding:3px;
 }
@@ -75,6 +80,7 @@ header div.banner div {
 .product-card div button {
     width: 40%;
 }
+
         
 @media (min-width:400px){
     .product-list {
