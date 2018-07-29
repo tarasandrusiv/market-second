@@ -28,16 +28,75 @@ header nav li a{
 header nav li a:hover{
     text-decoration: underline;
 }
-@media (max-width: 450px){
+@media (min-width: 450px) {
     header nav{
         display: flex;
     }
+        
     header ul {
         display: flex;
         flex:1;
         align-items:  center;
     }
+    header nav ul li{
+        margin-left: 2%
+    }
+    header ul li:last-child{
+        margin-left: auto;
+    }
 }
+header div.banner{
+    height: 500px;
+    background-image: url(../img/fila.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+header div.banner div {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.product-card{
+    padding:3px;
+}
+.product-card img{ 
+    width: 100%
+    
+}
+.product-card div {
+    display: flex;
+    justify-content: space-around;
+}
+
+.product-card div button {
+    width: 40%;
+}
+        
+@media (min-width:400px){
+    .product-list {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 5px;
+        row-gap: 5px;
+    }
+}
+
+@media (min-width: 500px) {
+    .product-list {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media (min-width: 600px) {
+    .product-list {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
 
 
 
