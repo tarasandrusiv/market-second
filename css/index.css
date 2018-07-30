@@ -47,6 +47,9 @@ header nav li a{
 header nav li a:hover{
     text-decoration: underline;
 }
+nav{
+    background-color: #CCCCCC;
+}
 @media (min-width: 450px) {
     header nav{
         display: flex;
@@ -225,4 +228,8 @@ h1{
     color: #FBFCFC;
     font-family: 'Raleway', sans-serif;
     
+}
+
+footer{
+    background-color: #CCCCCC;
 }
