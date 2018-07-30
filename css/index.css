@@ -199,7 +199,7 @@ header nav li a:hover{
         #box1{
             height: 100vh;
             width: 100%;
-            background-image: url(i1.jpg);
+            background-image: url(img/i1.jpg);
             background-size: cover;
             display: table;
             background-attachment: fixed;
@@ -207,7 +207,7 @@ header nav li a:hover{
         #box2{
             height: 100vh;
             width: 100%;
-            background-image: url(i2.jpg);
+            background-image: url(img/i2.jpg);
             background-size: cover;
             display: table;
             background-attachment: fixed;
@@ -215,7 +215,7 @@ header nav li a:hover{
         #box3{
             height: 100vh;
             width: 100%;
-            background-image: url(i3.jpg);
+            background-image: url(img/i3.jpg);
             background-size: cover;
             display: table;
             background-attachment: fixed;
